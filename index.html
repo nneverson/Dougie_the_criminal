@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script defer src="script.js"></script>
+    <title>Donut and pizza</title>
 </head>
 <body>
-    <input type="text" placeholder="# of complaints">
-
-    <!-- although the element is input, it shows as a button -->
+    <h1>Where can we get into trouble today?</h1>
+    <div class="navBar">
     <form >
-    <input type="submit" value="BROOKLYN">
-    <input type="submit" value="BRONX">
-    <input type="submit" value="Queens">
-    <input type="submit" value="Staten Island">
-    <input type="submit" value="Manhattan">
+        <input id= "userInput" value ="" type="text" placeholder="# OF COMPLAINTS">
     </form>
-    <div> 
-        complaint:
-    <div id="display">
-       
+    <div id="btnsContainer">
+        <button id="BROOKLYN" >BROOKLYN</button >
+            <button id="BRONX">BRONX</button>
+            <button id="MANHATTAN">MANHATTAN</button>
+            <button id="QUEENS">QUEENS</button>
+            <button id="STATEN ISLAND">STATEN ISLAND</button>
     </div>
 </div>
-    
-    <script src="script.js"></script>
+<div class="complaintsContainer">
+    <div id="div1"></div>
+    <div id="div2"></div>
+</div>
 </body>
 </html>
